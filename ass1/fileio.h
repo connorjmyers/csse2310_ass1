@@ -1,0 +1,12 @@
+void check_args(char** argv, int argc);
+int* get_player_types(char** argv, int argc);
+int* get_dimensions(char** argv, int argc);
+int get_card_number(char* deckName);
+char** get_deck(char* deckName, int numberOfCards, int argc);
+void exit_one();
+void exit_two();
+void exit_three();
+void exit_four();
+void exit_five();
+void exit_six();
+void exit_seven();
